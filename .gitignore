@@ -2,9 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
+!pysbol/lib/*/*.pyd
+
 
 # C extensions
 *.so
+!pysbol/lib/*/*.so
 
 # Distribution / packaging
 .Python
