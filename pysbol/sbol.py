@@ -22,6 +22,7 @@ elif system() == 'Windows':
 elif system() == 'Linux':
     platform_system = 'Linux'
 
+
 from sys import path as sys_path
 from os import path as os_path
 here = os_path.abspath(os_path.dirname(__file__))
@@ -34,5 +35,6 @@ sys_path.insert(
         platform_system
     )
 )
+
 
 from libsbol import *
