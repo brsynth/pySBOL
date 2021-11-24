@@ -1,8 +1,2 @@
 include DESCRIPTION.rst
-include sbol/Doxyfile
-include sbol/*.dox
-include sbol/DoxygenLayout.xml
-include sbol/examples/*
-include sbol/bin/Linux/_libsbol.so
-include sbol/bin/Mac_OSX/_libsbol.so
-include sbol/bin/Win_32/_libsbol.pyd
+graft pysbol/lib
