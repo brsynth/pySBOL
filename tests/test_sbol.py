@@ -7,6 +7,7 @@ class Test_SBOL(TestCase):
         b = True
         try:
             import pysbol
-        except:
+        except Exception as e:
             b = False
+            print(e)
         self.assertTrue(b)
